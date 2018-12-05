@@ -1,0 +1,27 @@
+{
+  "name": "fullstack-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mks4/fullstack-example.git"
+  },
+  "author": "Markus Keskimaa",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mks4/fullstack-example/issues"
+  },
+  "homepage": "https://github.com/mks4/fullstack-example#readme",
+  "devDependencies": {
+    "@babel/core": "^7.1.6",
+    "@babel/preset-react": "^7.0.0",
+    "react": "^16.6.3",
+    "react-dom": "^16.6.3",
+    "webpack": "^4.26.0",
+    "webpack-cli": "^3.1.2"
+  }
+}

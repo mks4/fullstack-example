@@ -5,6 +5,8 @@ module.exports = {
     watch: true,
     // Where webpack starts bundling.
     entry: './src/app.js',
+    // Means this is meant to run on node, not on the browser.
+    //target: 'node',
     output: {
         path: path.resolve(__dirname, 'dest'),
         filename: 'bundle.js',
@@ -14,9 +16,7 @@ module.exports = {
             {
                 // Both test and include have to be passed
                 test: /\.jsx?$/,
-                include: [
-                    path.resolve(__dirname, "src")
-                ],
+                exclude: /node_modules/,
 
                 // prefer include
                 //exclude: [
